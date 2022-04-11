@@ -120,6 +120,8 @@ install scripts have completed:
     * Apple ID
     * Configure iCloud.
     * Enable Find My Mac.
+    * General
+        * Turn off Force Click and haptic feedback
     * Security & Privacy
         * General
         * Require password immediately after sleep or screen saver begins.
@@ -130,6 +132,10 @@ install scripts have completed:
     * Desktop and Screen Saver
         * Select _Desktop_, click `+`, and choose custom image.
     * Bluetooth
+
+* Clone into Git Repos:
+    * Tech DNA Tools: git@github.com:techdna/tools.git
+    * Tech DNA Team Wiki: git@github.com:techdna/team-wiki.git
 
 * Notifications
     * Do Not Disturb
