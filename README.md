@@ -1,99 +1,75 @@
-:toc: macro
-:toclevels: 5
-:figure-caption!:
-
-= macOS Configuration
+# macOS Configuration
 
 Shell scripts for customized macOS machine setup and configuration.
 
 This project provides a highly opinionated default configuration built upon the
-link:https://www.alchemists.io/projects/mac_os[macOS] project. Should the configuration provided by
+[macOS](https://www.alchemists.io/projects/mac_os) project. Should the configuration provided by
 this project not be to your liking, feel free to fork and customize for your specific needs.
 
-toc::[]
 
-== Features
+
+## Table of Contents
+
+[Features](#features)
+
+[Setup](#setup)
+
+[Credits](#credits)
+
+
+
+## Features
 
 Due to the amount of tooling used, the following features are broken down into subsections for
 easier navigation.
 
-=== Homebrew Formulas
 
-Installs the following link:https://brew.sh[formulas]:
+### Homebrew Formulas
 
-* link:https://www.gnu.org/software/bash[Bash]
-* link:https://git-scm.com[Git]
-* link:https://savannah.gnu.org/projects/parallel[
-* link:https://obsidian.md[Obsidian]
-* link:https://code.visualstudio.com[Visual Studio Code]
+Installs the following [formulas](https://brew.sh):
 
-=== App Store Applications
+* [Bash](https://www.gnu.org/software/bash)
+* [Git](https://git-scm.com)
+* [Parallels](https://www.parallels.com/)
+* [Obsidian](https://obsidian.md)
+* [Visual Studio Code](https://code.visualstudio.com)
 
-Installs the following link:https://www.apple.com/app-store[App Store] applications:
 
-* link:https://1password.com[1Password]
-* link:https://slack.com[Slack]
-[https://apps.apple.com/us/app/messenger/id1480068668?mt=12]
+### App Store Applications
+
+Installs the following [App Store](https://www.apple.com/app-store) applications:
+
+* [1Password](https://1password.com)
+* [Slack](https://slack.com)
+* [Facebook Messenger](https://apps.apple.com/us/app/messenger/id1480068668?mt=12)
+
 
 ### Non-App Store Applications
-
-Installs the following macOS applications which are not located in the App Store:
-
-**None**
+Installs the following macOS applications which are not located in the App Store: **None**
 
 ### Application Extensions
-
-Installs the following extensions to existing applications:
-
-**None**
-
+Installs the following extensions to existing applications: **None**
 
 ### Node Packages
-
-Installs the following link:https://nodejs.org[Node] link:https://www.npmjs.com[packages]:
-
-* link:https://github.com/tomekwi/elm-live[Elm Live]
-* link:https://github.com/elm-explorations/test[Elm Test]
+Installs the following [Node](https://nodejs.org) [packages](https://www.npmjs.com): **None**
 
 ### Ruby Gems
-
-Installs the following link:https://www.ruby-lang.org[Ruby] link:https://rubygems.org[gems]:
-
-**None**
+Installs the following [Ruby](https://www.ruby-lang.org) [gems](https://rubygems.org): **None**
 
 ### Rust Crates
-
-Installs the following link:https://www.rust-lang.org[Rust] link:https://crates.io[crates]:
-
-**None**
+Installs the following [Rust](https://www.rust-lang.org) [crates](https://crates.io): **None**
 
 ### Requirements
 
-. Apple Silicon hardware.
-. link:https://www.alchemists.io/projects/mac_os[macOS]
-. link:https://developer.apple.com/xcode[Xcode]
+* Apple Silicon hardware.
+
 
 ## Setup
 
 To install, run:
 
-[source,bash]
-
-
-
 ### Pre-Install
 
-Ensure you have the following in place for your Silicon machine:
-
-. Ensure a backup of your Apple, NAS, backup image, and Dropbox credentials are available.
-. Ensure a recent backup of your machine exists and works properly.
-. Ensure link:https://support.apple.com/en-us/HT208198[Startup Security Utility] is disabled.
-.. Turn off your machine.
-.. Start your machine by pressing and holding the `POWER` button until you see startup options being
-   loaded.
-.. Select Utilities → Startup Security Utility from the main menu.
-.. Select _Reduced Security_.
-.. Quit the utility and restart the machine.
 
 ### Install
 
@@ -129,9 +105,10 @@ install scripts have completed:
         * FileVault
             * Enable FileVault and save the recovery key in a secure location (i.e. 1Password).
         * Enable Firewall
+        * Set device DNS to Google/CloudFlare (8.8.8.8 primary and 8.8.4.4 secondar for Google)
     * Desktop and Screen Saver
         * Select _Desktop_, click `+`, and choose custom image.
-    * Bluetooth
+    * Bluetooth - connect headset
 
 * Clone into Git Repos:
     * Tech DNA Tools: git@github.com:techdna/tools.git
@@ -151,6 +128,8 @@ install scripts have completed:
         * Disable _Play sounds for notifications_.
 
 
+
 ## Credits
 
-Engineered by link:https://www.alchemists.io/team/brooke_kuhlmann[Brooke Kuhlmann].
+Customized by Evan Romasco-Kelly
+Engineered by [https://www.alchemists.io/team/brooke_kuhlmann[Brooke Kuhlmann]
