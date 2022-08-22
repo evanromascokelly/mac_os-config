@@ -127,6 +127,9 @@ install scripts have completed:
         * Disable _Show notifications on lock screen_.
         * Disable _Play sounds for notifications_.
 
+* Use pyenv to manage Python installations (install latest version, do any development in that version, not system version)
+    * See https://towardsdatascience.com/homebrew-and-pyenv-python-playing-pleasantly-in-partnership-3a342d86319b
+
 
 
 ## Credits
