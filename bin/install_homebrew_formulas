@@ -5,3 +5,4 @@
 brew install git
 brew install mas
 brew install 1password
+brew install pyenv
