@@ -13,3 +13,7 @@ mas install 803453959
 # Facebook Messenger
 echo "Installing Facebook Messenger..."
 mas install 1480068668
+
+# Yubico Authenticator (used to manage YubiKeys)
+echo "Installing Yubico Authenticator"
+mas install 1497506650
