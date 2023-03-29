@@ -6,3 +6,5 @@ brew install git
 brew install mas
 brew install 1password
 brew install pyenv
+brew install markdownlint-cli
+brew install pre-commit

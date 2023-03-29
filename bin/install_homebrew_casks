@@ -6,11 +6,12 @@ brew install --cask google-chrome
 brew install --cask visual-studio-code
 brew install --cask gimp
 brew install --cask microsoft-auto-update
-brew install --cask microsoft-edge
+brew install --cask firefox
 brew install --cask microsoft-office
 brew install --cask obsidian
 brew install --cask parallels
 brew install --cask zoom
+brew install --cask google-cloud-sdk
 
 # Personal apps
 brew install --cask spotify
