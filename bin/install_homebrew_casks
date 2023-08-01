@@ -2,18 +2,28 @@
 
 # Installs Homebrew Casks.
 
-brew install --cask google-chrome
-brew install --cask visual-studio-code
-brew install --cask gimp
-brew install --cask microsoft-auto-update
+brew install --cask authy
+brew install --cask cloudflare-warp
 brew install --cask firefox
+brew install --cask google-chrome
+brew install --cask google-cloud-sdk
+brew install --cask microsoft-auto-update
 brew install --cask microsoft-office
+brew install --cask notion
 brew install --cask obsidian
 brew install --cask parallels
+brew install --cask visual-studio-code
 brew install --cask zoom
-brew install --cask google-cloud-sdk
 
 # Personal apps
+brew install --cask gimp
 brew install --cask spotify
+brew install --cask signal
 brew install --cask steam
 
+# Other apps (not needed immediately)
+# brew install --cask discord
+# brew install --cask fing
+# brew install --cask knockknock
+# brew install --cask minecraft
+# brew install --cask postpman
