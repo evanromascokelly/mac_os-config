@@ -98,21 +98,11 @@ install scripts have completed:
     * Enable Find My Mac.
     * General
         * Turn off Force Click and haptic feedback
-    * Security & Privacy
-        * General
+    * Security & Privacy - See [Manual Security Steps](./"Manual Security Steps.md")
         * Require password immediately after sleep or screen saver begins.
-        * Enable message when screen is locked. Example: `+<url> | <email> | <phone>+`.
         * FileVault
             * Enable FileVault and save the recovery key in a secure location (i.e. 1Password).
-        * Enable Firewall
-        * Set device DNS to Google/CloudFlare (8.8.8.8 primary and 8.8.4.4 secondar for Google)
-    * Desktop and Screen Saver
-        * Select _Desktop_, click `+`, and choose custom image.
-    * Bluetooth - connect headset
 
-* Clone into Git Repos:
-    * Tech DNA Tools: git@github.com:techdna/tools.git
-    * Tech DNA Team Wiki: git@github.com:techdna/team-wiki.git
 
 * Notifications
     * Do Not Disturb
@@ -126,9 +116,6 @@ install scripts have completed:
         * Select _Banners_ for all apps.
         * Disable _Show notifications on lock screen_.
         * Disable _Play sounds for notifications_.
-
-* Use pyenv to manage Python installations (install latest version, do any development in that version, not system version)
-    * See https://towardsdatascience.com/homebrew-and-pyenv-python-playing-pleasantly-in-partnership-3a342d86319b
 
 
 
