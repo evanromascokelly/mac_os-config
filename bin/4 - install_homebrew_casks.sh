@@ -8,7 +8,6 @@ brew install --cask google-chrome
 brew install --cask duckduckgo
 
 ## Security Software
-brew install --cask authy
 # brew install --cask cloudflare-warp
 brew install --cask knockknock
 brew install --cask osquery
