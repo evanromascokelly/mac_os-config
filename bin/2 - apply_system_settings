@@ -5,21 +5,11 @@
 printf "%s\n" "System - Disable boot sound effects."
 sudo nvram SystemAudioVolume=" "
 
-printf "%s\n" "System - Reveal IP address, hostname, OS version, etc. when clicking login window clock."
-sudo defaults write /Library/Preferences/com.apple.loginwindow AdminHostInfo HostName
-
 printf "%s\n" "System - Expand save panel by default."
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 
-printf "%s\n" "System - Require password immediately after sleep or screen saver begins."
-defaults write com.apple.screensaver askForPassword -int 1
-defaults write com.apple.screensaver askForPasswordDelay -int 0
-
 printf "%s\n" "System - Avoid creating .DS_Store files on network volumes."
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
-
-printf "%s\n" "System - Enable software updates."
-sudo softwareupdate --schedule on
 
 printf "%s\n" "Trackpad - Enable tap to click for current user and the login screen."
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
@@ -83,5 +73,5 @@ defaults write com.apple.print.PrintingPrefs "Quit When Finished" -bool true
 
 # Set PATH
 
-printf "%s\n" "Setting PATH variable."
-echo 'export PATH=$PATH:/opt/homebrew/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/evanromascokelly/techdna-tools/tools/bin' >> ~/.bash_profile
+# printf "%s\n" "Setting PATH variable."
+# echo 'export PATH=$PATH:/opt/homebrew/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/evanromascokelly/techdna-tools/tools/bin' >> ~/.bash_profile

@@ -2,12 +2,10 @@
 
 # Installs Homebrew software.
 
-brew install 1password/tap/1password-cli
+brew install awscli
 brew install gh
 brew install git
-brew install markdownlint-cli
 brew install mas
 brew install node
 brew install pre-commit
 brew install python
-brew install pyenv

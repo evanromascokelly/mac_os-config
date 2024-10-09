@@ -1,7 +1,6 @@
 #! /usr/bin/env bash
 
-# Configures installed software.
-
+## Configures installed software.
 
 # Bash
 (
