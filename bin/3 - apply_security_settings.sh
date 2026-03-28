@@ -2,8 +2,8 @@
 
 # Applies security settings (informed by CIS MacOS Benchmarks)
 
-CURRENT_USER = $USER
-LOCK_SCREEN_MESSAGE = "Device is reserved for authorized use and monitored  |   If found call +1-206-295-8499"
+CURRENT_USER=$USER
+LOCK_SCREEN_MESSAGE="Device is reserved for authorized use and monitored  |   If found call +1-206-295-8499"
 
 # 1. Software updates - Enable software updates.
 printf "%s\n" "System - Enable software updates."
